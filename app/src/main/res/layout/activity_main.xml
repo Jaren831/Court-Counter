@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -22,7 +26,7 @@
                 android:id="@+id/score1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="0"
+                android:text="@string/score_start"
                 android:layout_marginTop="16dp"
                 android:textSize="48sp"
                 android:gravity="center"/>
@@ -30,19 +34,19 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:text="1"
+                android:text="@string/free_throw"
                 android:onClick="one1"/>
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:text="2"
+                android:text="@string/shot"
                 android:onClick="two1"/>
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:text="3"
+                android:text="@string/three_point"
                 android:onClick="three1"/>
         </LinearLayout>
         <LinearLayout
@@ -54,7 +58,7 @@
                 android:id="@+id/score2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="0"
+                android:text="@string/score_start"
                 android:textSize="48sp"
                 android:layout_marginTop="16dp"
                 android:gravity="center"/>
@@ -62,19 +66,19 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:text="1"
+                android:text="@string/free_throw"
                 android:onClick="one2"/>
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:text="2"
+                android:text="@string/shot"
                 android:onClick="two2"/>
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:text="3"
+                android:text="@string/three_point"
                 android:onClick="three2"/>
         </LinearLayout>
     </LinearLayout>
@@ -88,3 +92,5 @@
         android:onClick="reset"/>
 
 </LinearLayout>
+
+</ScrollView>
