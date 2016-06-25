@@ -4,4 +4,5 @@
     <string name="free_throw">1</string>
     <string name="shot">2</string>
     <string name="three_point">3</string>
+    <string name="reset">RESET</string>
 </resources>
